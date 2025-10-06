@@ -1,0 +1,93 @@
+.bite-grd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        align-items: center;
+            padding: 60px 0px 10px 0px;
+}
+.bite-grd div:last-child{
+    text-align: left;
+}
+.bite-grd h2{
+    font-family: 'Merriweather', serif;
+        color: #024C97;
+    font-size: 24px;
+}
+.bite-grd h3{
+        color: #070707;
+    font-family: 'outfit', sans-serif;
+    padding: 10px 0px;
+    font-size: 24px;
+}
+   
+.bite-grd p{
+    font-size: 20px;
+    line-height: 34px;
+    text-align: justify;
+}
+.history-grd h4{
+     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #070707;
+}
+.history-grd{
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+        padding: 25px 0px 17px 0px;
+        column-gap: 50px;
+}
+.hist-pink img{
+    background-color: #EB43F4;
+    border-radius: 50%;
+    padding: 7px;
+    width: 27%;
+}
+.hist-blue img{
+      background-color: #72B1F0;
+    border-radius: 50%;
+    padding: 7px;
+    width: 20%;
+}
+.hist-pink,.hist-blue,.hist-orange,.hist-green {
+        display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.hist-orange img{
+     background-color:#F5944F;
+    border-radius: 50%;
+    padding: 7px;
+    width: 20%;
+}
+.hist-green img{
+      background-color:#1CB098;
+    border-radius: 50%;
+    padding: 7px;
+    width: 20%;
+}
+.bite-grd a{
+        background-color: #FBC328;
+    padding: 12px 40px 12px 40px;
+    border-radius: 25px;
+    font-weight: 600;
+    color: #000000;
+    
+}
+.read-mr{
+margin-top: 40px;
+}
+.welcome-bte{
+    position: relative;
+}
+.welcome-bte::before{
+    content: '';
+    position: absolute;
+    background: url(/src/assets/Welcome-bite.png);
+    width: 24%;
+    height: 36%;
+    bottom: -30px;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
