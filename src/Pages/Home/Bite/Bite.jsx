@@ -1,7 +1,7 @@
 import React from 'react'
 import './Bite.css'
 import bite_img from "../../../assets/Groupa45481.png"
-import history_img from "../../../assets/History.png"
+import history_img from "../../../assets/history.png"
 import Academic_img from "../../../assets/Academic.png"
 import Innovation_img from "../../../assets/Innovation.png"
 import Faculty_img from "../../../assets/Faculty.png"
