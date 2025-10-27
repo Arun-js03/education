@@ -24,10 +24,11 @@ function British() {
           spaceBetween={20} // spacing between slides
           centeredSlides={false}
           loop={true}
-        //   autoplay={{
-        //     delay: 2500,
-        //     disableOnInteraction: false,
-        //   }}
+          speed={800}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           pagination={{
             clickable: true,
           }}

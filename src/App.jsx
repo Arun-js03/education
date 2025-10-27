@@ -5,6 +5,7 @@ import Nav from './Components/Navbar/Nav'
 import Home from './Pages/Home/Banner/Home'
 import British from './Pages/Home/British/British'
 import Bite from './Pages/Home/Bite/Bite'
+import Courses from './Pages/Home/Courses/Courses'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
      <Home />
      <British />
      <Bite />
+      <Courses />
     </>
   )
 }

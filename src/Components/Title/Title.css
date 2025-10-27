@@ -1,0 +1,17 @@
+.title{
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.title p{
+    color: #024C97;
+ font-family: "Merriweather", sans-serif;
+    font-size: 24px;
+
+}
+.title h2{
+        color: #070707;
+    font-family: 'outfit', sans-serif;
+    padding: 10px 0px;
+    font-size: 24px;
+}
